@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+#include "krug.hpp"
+#include "pravougaonik.hpp"
+#include "valjak.hpp"
+
+int main()
+{
+    Valjak v1;
+    Valjak v2(2,4);
+
+    cout<<"v1: P= "<< v1.getP()<<endl<<"V= "<<v1.getV()<<endl;
+    cout<<"v2: P= "<< v2.getP()<<endl<<"V= "<<v2.getV()<<endl;
+    return 0;
+}
